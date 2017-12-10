@@ -1,0 +1,19 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "Recipe API implementation",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./task/seed.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moulya Soma Sundara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.1",
+    "node-uuid": "^1.4.7"
+  }
+}
